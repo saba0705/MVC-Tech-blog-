@@ -1,0 +1,45 @@
+ <div class = "text">
+<div class="container blogBoxCont">
+		<div class="row headerRow">
+			<div class="col-8">
+				<h2 class="blogTitle text-uppercase">{{title}}</h2>
+
+                <p class="blogDate">{{format_date date_created}}</p>
+                <p class="blogContent">{{content}}</p>
+                <p class="blogAuthor
+                ">{{user.username}}</p>
+               
+            </div>
+        </div>
+        {{#if comments}}
+        <div class="row">
+            <div class="col-8">
+                <h3>Comments</h3>
+                {{#each comments}}
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">{{comment_description}}</p>
+                        <p class="card-text">{{format_date date_created}}</p>
+                        <p class="card-text">{{user.username}}</p>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+
+    </div>
+    {{/if}}
+    <div class="row">
+        <div class="col-8">
+            <h3>Create a New Comment:</h3>
+            <form class="form new-comment-form" data-blogid = "{{id}}"> 
+                <div class="form-group">
+                    <label for="comment-description">Comment:</label>
+                    <textarea class="form-input" id="comment-description" name="comment-description"></textarea>
+                    <button type="submit" class="btn btn-primary">Create</button>
+                     
+                     </div>
+            </form>
+</div>
+
+<script src="/js/comment.js"></script>
+
