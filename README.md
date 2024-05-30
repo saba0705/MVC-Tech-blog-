@@ -1,4 +1,20 @@
 # MVC-Tech-blog-
+
+# Table of Contents 
+
+* Description
+* Challenge Elements
+* Installation
+* Usage 
+* Contributions
+* Licence
+
+# Description 
+A CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The app will follow the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
+
+
+
+# Challenge Elements 
 User Story
 
 AS A developer who writes about tech
@@ -39,3 +55,32 @@ WHEN I click on the logout option in the navigation
 THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view posts and comments but I am prompted to log in again before I can add, update, or delete posts
+
+# Installation
+
+* Enter git clone ______  to clone the repository.
+
+* Install the dependencies using npm install.
+
+* Use psql -U postgres to log in and run the schema.sql file.
+
+* Run npm run seed to seed the database with test data.
+
+* Quit the postgres and start the server using npm start
+
+# Usage
+
+
+# Contributions 
+
+We'd love for you to contribute! In order to do so, fork this repository. Your pull request will need approval in order to merge to main.
+
+# Licence 
+
+Copyright (c) Saba Pervez. All rights reserved.
+
+Licensed under the MIT license.
+
+
+
+
