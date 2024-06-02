@@ -1,8 +1,10 @@
+
  <div class = "text">
 <div class="container blogBoxCont">
+    <div class ="card">
 		<div class="row headerRow">
 			<div class="col-8">
-				<h2 class="blogTitle text-uppercase">{{title}}</h2>
+				<h2 class="BlogTitle text-uppercase">{{title}}</h2>
 
                 <p class="blogDate">{{format_date date_created}}</p>
                 <p class="blogContent">{{content}}</p>
@@ -11,6 +13,9 @@
                
             </div>
         </div>
+    </div>
+
+        
         {{#if comments}}
         <div class="row">
             <div class="col-8">
