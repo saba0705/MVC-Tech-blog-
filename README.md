@@ -58,7 +58,7 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 
 # Installation
 
-* Enter git clone ______  to clone the repository.
+* Enter git clone https://github.com/saba0705/MVC-Tech-blog- to clone the repository.
 
 * Install the dependencies using npm install.
 
@@ -69,6 +69,9 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 * Quit the postgres and start the server using npm start
 
 # Usage
+
+* Sign up or Login functionality
+* Create account to add blogs, edit them and delete them. 
 
 
 # Contributions 
