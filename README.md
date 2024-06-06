@@ -73,6 +73,9 @@ THEN I am able to view posts and comments but I am prompted to log in again befo
 * Sign up or Login functionality
 * Create account to add blogs, edit them and delete them. 
 
+* render deployed link : https://mvc-tech-blog-v77l.onrender.com 
+
+* screenshot ![alt text](image.png)
 
 # Contributions 
 
